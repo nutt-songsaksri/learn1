@@ -1,14 +1,16 @@
-let x = 7 
-var y = 5 
-var z = 11
-
-function a() {
-    console.log(x);
+let x = 2;
+let y = "nutty";
+let z ;
+let w = null;
+let k = {
+    ds: "adkd",
+    ff: 2
 }
 
-const b = () => {
-    console.log(y);
-}
-
-a();
-b();
+console.log(typeof x);
+console.log(typeof y);
+console.log(typeof z);
+console.log(typeof w);
+console.log(typeof k);
+console.log(typeof k.ds);
+console.log(typeof k.ff);
