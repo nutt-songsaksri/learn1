@@ -23,12 +23,16 @@
 //---------------------------------------------------------------
 
 //เรื่อง Array
-var c = [1, 2, 3];
+// var c = [1, 2, 3];
 
-console.log(c[0]);
-console.log(c.length); //จำนวน
-console.log(
-  c.sort((a, b) => {
-    return b - a;
-  })
-);
+// console.log(c[0]);
+// console.log(c.length); //จำนวน
+// console.log(
+//   c.sort((a, b) => {
+//     return b - a;
+//   })
+// );
+
+//เรื่องบูลีน
+let h = true;
+console.log(typeof h);
