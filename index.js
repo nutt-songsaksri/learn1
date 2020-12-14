@@ -34,5 +34,22 @@
 // );
 
 //เรื่องบูลีน
-let h = true;
-console.log(typeof h);
+// let h = true;
+// console.log(typeof h);
+
+// ครั้งที่ 3 เรียนเรื่อง export
+// const calcu = require("./calculated");
+// cal เป็น Object ที่เราอยากดึงมาใช้ ข้างในมี 2 ฟังก์ชั่น คือ plus กับ minus ตัวฟังก์ชั่นใน Object
+// เรียกว่า Method ส่วนตัวแปรใน Object เรียก Property
+// console.log(calcu.test);
+// console.log(calcu.plus(5, 6));
+// console.log(calcu.minus(20, 5));
+
+//เรื่อง Class(การใช้ Template Class) ในการ export ไฟล์
+const Calculated = require("./calculated");
+//เรียกใช้ propertyพิม new : Name ตั้งเอง type คือ class ,Arguments คือพารามิเตอร์ที่ใส่ไปใน constructor
+const Cal = new Calculated(); //
+
+console.log(Cal.cat); //สตรองให้ดูค่าก่อนว่าก่อนบวกหลังบวกเป็นไง
+Cal.addCat(2);
+console.log(Cal.cat);
