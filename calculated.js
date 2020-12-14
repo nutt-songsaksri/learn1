@@ -9,9 +9,13 @@
 
 // เรื่อง Class สำหรับกำหนด Object
 class Calculate {
-  //Property
-  cat = 10;
+  //Property กำหนดแบบฟิค
+  cat = 0;
   dog = 0;
+  //Constructor กำหนดค่เริ่มต้นแบบไม่ฟิค
+  constructor(catquantity) {
+    this.cat = catquantity;
+  }
 
   //method
   addCat(quantity) {
